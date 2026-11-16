@@ -27,6 +27,7 @@ query($login: String!) {
     repositories(ownerAffiliations: OWNER, privacy: PUBLIC, isFork: false, first: 100) {
       totalCount
       nodes {
+        name
         homepageUrl
         languages(first: 8, orderBy: {field: SIZE, direction: DESC}) {
           edges { size node { name color } }
@@ -113,7 +114,9 @@ def render(user):
     cal = user["contributionsCollection"]["contributionCalendar"]
     days = [d for w in cal["weeks"] for d in w["contributionDays"]]
     current, longest = streaks(days)
-    live = sum(1 for n in repos["nodes"] if (n.get("homepageUrl") or "").strip())
+    # The profile repo (named after the user) links to the portfolio, not a demo.
+    live = sum(1 for n in repos["nodes"]
+               if (n.get("homepageUrl") or "").strip() and n["name"].lower() != LOGIN.lower())
 
     langs = {}
     for n in repos["nodes"]:
