@@ -1,0 +1,61 @@
+name: "✦ Work with me"
+description: Freelance project, contract or full-time role — tell me what you're building.
+title: "[Inquiry] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 👋 Thanks for reaching out!
+        I work with clients and companies **worldwide** (remote-first). Share a few details and I'll get back to you.
+
+        > [!NOTE]
+        > GitHub issues are **public**. Only share contact details you're comfortable posting — or leave them out and I'll reply right here.
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of work is it?
+      options:
+        - Freelance project
+        - Contract / part-time
+        - Full-time role
+        - Collaboration / something else
+    validations:
+      required: true
+  - type: checkboxes
+    id: services
+    attributes:
+      label: What do you need?
+      options:
+        - label: HTML5 or educational game
+        - label: UI/UX design (app, website or game UI)
+        - label: Unity → web port
+        - label: Prototype or MVP
+        - label: Something else
+  - type: textarea
+    id: details
+    attributes:
+      label: Tell me about it
+      description: Goals, audience, platforms, and links to anything relevant.
+      placeholder: We're building…
+    validations:
+      required: true
+  - type: input
+    id: timeline
+    attributes:
+      label: Timeline
+      placeholder: e.g. 4–6 weeks, starting in January
+  - type: input
+    id: budget
+    attributes:
+      label: Budget or salary range (optional)
+      placeholder: e.g. USD 2,000–4,000
+  - type: input
+    id: timezone
+    attributes:
+      label: Your location / time zone (optional)
+      placeholder: e.g. Berlin (CET) · New York (EST) · Singapore (SGT)
+  - type: input
+    id: contact
+    attributes:
+      label: Best way to reach you (optional — this is public)
+      placeholder: Company website or LinkedIn, or leave blank and I'll reply here

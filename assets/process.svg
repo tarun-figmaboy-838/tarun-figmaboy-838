@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="t d">
+<title id="t">How I work</title>
+<desc id="d">Four steps: Discover — Goals, audience, scope &amp; success; Design — Wireframes → polished UI in Figma; Build — Lightweight HTML5 + JS, tested screen by screen; Launch — Live link, handoff &amp; iterations</desc>
+<defs><linearGradient id="beam" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF4FD8"/><stop offset=".5" stop-color="#7C5CFF"/><stop offset="1" stop-color="#3DE0FF"/></linearGradient><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#fff" fill-opacity=".07"/></pattern><clipPath id="outer"><rect width="1200" height="270" rx="28"/></clipPath><linearGradient id="trail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7C5CFF" stop-opacity=".2"/><stop offset="1" stop-color="#C6FF3D"/></linearGradient><filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<style>.sans{font-family:Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}.mono{font-family:'JetBrains Mono','SF Mono',SFMono-Regular,ui-monospace,Menlo,Consolas,'Liberation Mono',monospace}@media (prefers-reduced-motion:reduce){*{animation:none!important}}.beam{animation:beam 7s linear infinite}@keyframes beam{to{stroke-dashoffset:-1000}}
+.ps{font-size:11.5px;font-weight:800;letter-spacing:2.4px;fill:#A7A3C7}
+.pn{font-size:22px;font-weight:800;fill:#F4F2FF}
+.pd{font-size:15px;fill:#A7A3C7}
+.node{transform-box:fill-box;transform-origin:center;animation:node 6.4s ease-out infinite}
+@keyframes node{0%{transform:scale(1.14)}10%,100%{transform:scale(1)}}
+.ring{transform-box:fill-box;transform-origin:center;opacity:0;animation:ring 6.4s ease-out infinite}
+@keyframes ring{0%{opacity:.9;transform:scale(1)}14%,100%{opacity:0;transform:scale(1.7)}}
+.run{animation:run 6.4s cubic-bezier(.5,0,.5,1) infinite}
+@keyframes run{0%{transform:translateX(0)}75.0%,100%{transform:translateX(840px)}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 6.4s cubic-bezier(.5,0,.5,1) infinite}
+@keyframes grow{0%{transform:scaleX(0)}75.0%{transform:scaleX(1)}96%{transform:scaleX(1);opacity:1}100%{transform:scaleX(1);opacity:0}}
+</style>
+
+<g clip-path="url(#outer)">
+  <rect width="1200" height="270" fill="#0E0C1A"/><rect width="1200" height="270" fill="url(#dots)"/>
+  <line x1="170" y1="110" x2="1010" y2="110" stroke="#fff" stroke-opacity=".16" stroke-width="2" stroke-dasharray="6 9"/>
+  <rect class="grow" x="170" y="108.5" width="840" height="3" rx="1.5" fill="url(#trail)"/>
+  
+<text x="170" y="58" text-anchor="middle" class="mono ps">STEP 01</text>
+<g transform="translate(170 110)"><g class="node" style="animation-delay:0.00s">
+  <circle r="34" fill="#1A1633" stroke="url(#beam)" stroke-width="2.5"/>
+  <circle class="ring" style="animation-delay:0.00s" r="34" fill="none" stroke="#C6FF3D" stroke-width="2"/>
+  <text y="1" text-anchor="middle" dominant-baseline="central" font-size="28">🔍</text>
+</g></g>
+<text x="170" y="180" text-anchor="middle" class="sans pn">Discover</text>
+<text x="170" y="208" text-anchor="middle" class="sans pd">Goals, audience,</text><text x="170" y="230" text-anchor="middle" class="sans pd">scope &amp; success</text>
+<text x="450" y="58" text-anchor="middle" class="mono ps">STEP 02</text>
+<g transform="translate(450 110)"><g class="node" style="animation-delay:1.60s">
+  <circle r="34" fill="#1A1633" stroke="url(#beam)" stroke-width="2.5"/>
+  <circle class="ring" style="animation-delay:1.60s" r="34" fill="none" stroke="#C6FF3D" stroke-width="2"/>
+  <text y="1" text-anchor="middle" dominant-baseline="central" font-size="28">✏️</text>
+</g></g>
+<text x="450" y="180" text-anchor="middle" class="sans pn">Design</text>
+<text x="450" y="208" text-anchor="middle" class="sans pd">Wireframes → polished</text><text x="450" y="230" text-anchor="middle" class="sans pd">UI in Figma</text>
+<text x="730" y="58" text-anchor="middle" class="mono ps">STEP 03</text>
+<g transform="translate(730 110)"><g class="node" style="animation-delay:3.20s">
+  <circle r="34" fill="#1A1633" stroke="url(#beam)" stroke-width="2.5"/>
+  <circle class="ring" style="animation-delay:3.20s" r="34" fill="none" stroke="#C6FF3D" stroke-width="2"/>
+  <text y="1" text-anchor="middle" dominant-baseline="central" font-size="28">⚙️</text>
+</g></g>
+<text x="730" y="180" text-anchor="middle" class="sans pn">Build</text>
+<text x="730" y="208" text-anchor="middle" class="sans pd">Lightweight HTML5 + JS,</text><text x="730" y="230" text-anchor="middle" class="sans pd">tested screen by screen</text>
+<text x="1010" y="58" text-anchor="middle" class="mono ps">STEP 04</text>
+<g transform="translate(1010 110)"><g class="node" style="animation-delay:4.80s">
+  <circle r="34" fill="#1A1633" stroke="url(#beam)" stroke-width="2.5"/>
+  <circle class="ring" style="animation-delay:4.80s" r="34" fill="none" stroke="#C6FF3D" stroke-width="2"/>
+  <text y="1" text-anchor="middle" dominant-baseline="central" font-size="28">🚀</text>
+</g></g>
+<text x="1010" y="180" text-anchor="middle" class="sans pn">Launch</text>
+<text x="1010" y="208" text-anchor="middle" class="sans pd">Live link, handoff</text><text x="1010" y="230" text-anchor="middle" class="sans pd">&amp; iterations</text>
+  <g transform="translate(170 110)"><g class="run"><circle r="7" fill="#C6FF3D" filter="url(#glow)"/></g></g>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="268.5" rx="27.25" fill="none" stroke="#fff" stroke-opacity=".09"/><rect class="beam" style="animation-duration:8s;animation-delay:0.0s" x="1" y="1" width="1198" height="268" rx="27.25" fill="none" stroke="url(#beam)" stroke-width="2" pathLength="1000" stroke-dasharray="150 850" stroke-linecap="round"/>
+
+</svg>
