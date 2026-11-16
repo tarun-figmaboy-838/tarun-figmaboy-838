@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="t d">
+<title id="t">Tarun Diwedi — UI/UX Designer × Game Developer</title>
+<desc id="d">Animated banner: Tarun Diwedi, UI/UX designer and game developer, available for freelance and full-time work worldwide.</desc>
+<defs><clipPath id="clip"><rect width="1200" height="440" rx="28"/></clipPath><clipPath id="board"><rect x="772" y="84" width="356" height="256" rx="18"/></clipPath><radialGradient id="gv"><stop offset="0" stop-color="#7C5CFF" stop-opacity=".55"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/></radialGradient><radialGradient id="gp"><stop offset="0" stop-color="#FF4FD8" stop-opacity=".38"/><stop offset="1" stop-color="#FF4FD8" stop-opacity="0"/></radialGradient><radialGradient id="gc"><stop offset="0" stop-color="#3DE0FF" stop-opacity=".30"/><stop offset="1" stop-color="#3DE0FF" stop-opacity="0"/></radialGradient><linearGradient id="name" x1="0" y1="0" x2="1" y2="0" spreadMethod="repeat"><stop offset="0" stop-color="#C4B5FF"/><stop offset=".33" stop-color="#FF4FD8"/><stop offset=".66" stop-color="#3DE0FF"/><stop offset="1" stop-color="#C4B5FF"/><animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1 0" dur="6s" repeatCount="indefinite"/></linearGradient><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1A1540"/><stop offset="1" stop-color="#2D2062"/></linearGradient><linearGradient id="hexfill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8AE6"/><stop offset="1" stop-color="#7C5CFF"/></linearGradient><radialGradient id="fade" cx="32%" cy="42%" r="78%"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><mask id="dotmask"><rect width="1200" height="440" fill="url(#fade)"/></mask><filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="beam" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF4FD8"/><stop offset=".5" stop-color="#7C5CFF"/><stop offset="1" stop-color="#3DE0FF"/></linearGradient><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#fff" fill-opacity=".07"/></pattern></defs>
+<style>.sans{font-family:Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}.mono{font-family:'JetBrains Mono','SF Mono',SFMono-Regular,ui-monospace,Menlo,Consolas,'Liberation Mono',monospace}@media (prefers-reduced-motion:reduce){*{animation:none!important}}.beam{animation:beam 7s linear infinite}@keyframes beam{to{stroke-dashoffset:-1000}}
+.pill{font-size:12.5px;font-weight:700;fill:#C6FF3D;letter-spacing:1.6px}
+.hey{font-size:26px;font-weight:600;fill:#CFCBEA}
+.name{font-size:84px;font-weight:900;letter-spacing:-1.5px}
+.sub{font-size:30px;font-weight:700;fill:#F4F2FF}
+.tag{font-size:19px;fill:#B9B5DA}
+.chip{font-size:13px;font-weight:600;fill:#E6E3FA}
+.lbl{font-size:11.5px;fill:#8E8AB5}
+.btn{font-size:12px;font-weight:800;fill:#0B0A14}
+.cur{font-size:11.5px;font-weight:700}
+.dim{font-size:10px;font-weight:700;fill:#fff}
+.blob{animation:drift 14s ease-in-out infinite alternate}
+.b2{animation-duration:18s;animation-delay:-6s}
+.b3{animation-duration:22s;animation-delay:-11s}
+@keyframes drift{0%{transform:translate(0,0)}50%{transform:translate(60px,30px)}100%{transform:translate(-40px,18px)}}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 24s linear infinite}
+.rev{animation-direction:reverse;animation-duration:32s}
+@keyframes spin{to{transform:rotate(360deg)}}
+.bob{animation:bob 6s ease-in-out infinite}
+.bob2{animation-duration:8s;animation-delay:-3s}
+@keyframes bob{50%{transform:translateY(-12px)}}
+.tw{transform-box:fill-box;transform-origin:center;animation:tw 3s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.25;transform:scale(.6)}50%{opacity:1;transform:scale(1)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 1.8s ease-out infinite}
+@keyframes pulse{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(2.8)}}
+.wave{transform-box:fill-box;transform-origin:70% 85%;animation:wave 2.6s ease-in-out infinite}
+@keyframes wave{0%,60%,100%{transform:rotate(0)}10%,30%{transform:rotate(16deg)}20%,40%{transform:rotate(-8deg)}}
+.rise{animation:rise .9s cubic-bezier(.2,.8,.2,1) backwards}
+.d1{animation-delay:.12s}.d2{animation-delay:.24s}.d3{animation-delay:.36s}.d4{animation-delay:.48s}.d5{animation-delay:.6s}.d6{animation-delay:.5s}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}}
+.ga{opacity:0;animation:ga 4.5s steps(1) infinite}
+.gb{opacity:0;animation:gb 4.5s steps(1) infinite}
+@keyframes ga{0%,88%,100%{opacity:0;transform:none}89%{opacity:.85;transform:translate(-5px,2px)}91%{opacity:.85;transform:translate(4px,-1px)}93%{opacity:0}}
+@keyframes gb{0%,88%,100%{opacity:0;transform:none}89%{opacity:.85;transform:translate(5px,-2px)}91%{opacity:.85;transform:translate(-3px,1px)}93%{opacity:0}}
+.hopY{animation:hopY 1.6s infinite}
+@keyframes hopY{0%,14%{transform:translateY(0);animation-timing-function:cubic-bezier(.2,.7,.4,1)}50%{transform:translateY(-44px);animation-timing-function:cubic-bezier(.6,0,.8,.3)}86%,100%{transform:translateY(0)}}
+.squash{transform-box:fill-box;transform-origin:50% 100%;animation:squash 1.6s infinite}
+@keyframes squash{0%{transform:scale(1.1,.9)}14%{transform:scale(1.14,.86)}24%{transform:scale(.92,1.08)}50%{transform:scale(1)}84%{transform:scale(.95,1.05)}92%,100%{transform:scale(1.1,.9)}}
+.shadow{transform-box:fill-box;transform-origin:center;animation:shadow 1.6s infinite}
+@keyframes shadow{0%,14%,86%,100%{transform:scale(1);opacity:1}50%{transform:scale(.55);opacity:.5}}
+.blink{transform-box:fill-box;transform-origin:center;animation:blink 3.6s infinite}
+@keyframes blink{0%,90%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+.coin{transform-box:fill-box;transform-origin:center;animation:coin 1.4s linear infinite}
+@keyframes coin{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.12)}}
+.curY{animation:curY 8s infinite cubic-bezier(.45,0,.25,1)}
+@keyframes curY{0%{transform:translate(0,0)}20%{transform:translate(60px,64px)}40%{transform:translate(126px,14px)}60%,82%{transform:translate(214px,-34px)}100%{transform:translate(0,0)}}
+.curT{animation:curT 9s infinite cubic-bezier(.45,0,.25,1)}
+@keyframes curT{0%{transform:translate(0,0)}18%,30%{transform:translate(-28px,-92px)}50%,62%{transform:translate(-118px,-30px)}80%{transform:translate(-64px,-146px)}100%{transform:translate(0,0)}}
+.press{transform-box:fill-box;transform-origin:center;animation:press 8s infinite}
+@keyframes press{0%,61%,67%,100%{transform:scale(1)}63%{transform:scale(.86)}}
+.ripple{transform-box:fill-box;transform-origin:center;opacity:0;animation:ripple 8s infinite}
+@keyframes ripple{0%,61%{opacity:0;transform:scale(.4)}62%{opacity:.95;transform:scale(.6)}74%,100%{opacity:0;transform:scale(2.6)}}
+.tool{animation:tool 8s infinite}
+@keyframes tool{0%,24.9%{transform:translateX(0)}25%,49.9%{transform:translateX(40px)}50%,74.9%{transform:translateX(80px)}75%,100%{transform:translateX(120px)}}
+</style>
+
+<g clip-path="url(#clip)">
+  <rect width="1200" height="440" fill="#0B0A14"/>
+  <circle class="blob" cx="210" cy="60" r="330" fill="url(#gv)"/>
+  <circle class="blob b2" cx="1010" cy="430" r="320" fill="url(#gp)"/>
+  <circle class="blob b3" cx="720" cy="-30" r="260" fill="url(#gc)"/>
+  <rect width="1200" height="440" fill="url(#dots)" mask="url(#dotmask)"/>
+  <g transform="translate(704 116)"><g class="bob"><polygon class="spin" points="0.00,-22.00 19.05,11.00 -19.05,11.00" fill="none" stroke="#7C5CFF" stroke-width="2" stroke-opacity=".75"/></g></g>
+  <g transform="translate(728 392)"><g class="bob bob2"><polygon class="spin rev" points="0.00,-17.00 16.17,-5.25 9.99,13.75 -9.99,13.75 -16.17,-5.25" fill="none" stroke="#3DE0FF" stroke-width="2" stroke-opacity=".6"/></g></g>
+  <g transform="translate(1166 404)"><g class="bob"><polygon class="spin" points="-16,8 -6,-8 16,-8 6,8" fill="none" stroke="#FF4FD8" stroke-width="2" stroke-opacity=".7"/></g></g>
+  <g transform="translate(1160 66)"><g class="bob bob2"><polygon class="spin rev" points="0.00,-12.00 10.39,-6.00 10.39,6.00 0.00,12.00 -10.39,6.00 -10.39,-6.00" fill="none" stroke="#C6FF3D" stroke-width="2" stroke-opacity=".55"/></g></g>
+  <g transform="translate(650 56) scale(1.0)"><path class="tw" style="animation-delay:0s" d="M0 -8C1 -2 2 -1 8 0C2 1 1 2 0 8C-1 2 -2 1 -8 0C-2 -1 -1 -2 0 -8Z" fill="#C6FF3D"/></g><g transform="translate(1168 300) scale(0.8)"><path class="tw" style="animation-delay:1.3s" d="M0 -8C1 -2 2 -1 8 0C2 1 1 2 0 8C-1 2 -2 1 -8 0C-2 -1 -1 -2 0 -8Z" fill="#3DE0FF"/></g><g transform="translate(618 404) scale(0.7)"><path class="tw" style="animation-delay:0.7s" d="M0 -8C1 -2 2 -1 8 0C2 1 1 2 0 8C-1 2 -2 1 -8 0C-2 -1 -1 -2 0 -8Z" fill="#FF4FD8"/></g><g transform="translate(1150 34) scale(0.6)"><path class="tw" style="animation-delay:2.0s" d="M0 -8C1 -2 2 -1 8 0C2 1 1 2 0 8C-1 2 -2 1 -8 0C-2 -1 -1 -2 0 -8Z" fill="#fff"/></g><g transform="translate(560 120) scale(0.55)"><path class="tw" style="animation-delay:1.7s" d="M0 -8C1 -2 2 -1 8 0C2 1 1 2 0 8C-1 2 -2 1 -8 0C-2 -1 -1 -2 0 -8Z" fill="#fff"/></g>
+
+  <!-- left: intro -->
+  <g class="rise">
+    <g transform="translate(72 70)">
+      <rect width="327.0" height="34" rx="17" fill="#C6FF3D" fill-opacity=".08" stroke="#C6FF3D" stroke-opacity=".45"/>
+      <circle cx="19" cy="17" r="5" fill="#C6FF3D"/><circle class="pulse" cx="19" cy="17" r="5" fill="#C6FF3D"/>
+      <text x="36" y="21.5" class="mono pill" textLength="273.0" lengthAdjust="spacingAndGlyphs">AVAILABLE FOR WORK · WORLDWIDE</text>
+    </g>
+  </g>
+  <g class="rise d1">
+    <text x="72" y="158" class="sans hey wave">👋</text>
+    <text x="120" y="158" class="sans hey">Hey there, I'm</text>
+  </g>
+  <g class="rise d2">
+    <text x="72" y="242" class="sans name ga" fill="#3DE0FF" textLength="640" lengthAdjust="spacingAndGlyphs">TARUN DIWEDI</text>
+    <text x="72" y="242" class="sans name gb" fill="#FF4FD8" textLength="640" lengthAdjust="spacingAndGlyphs">TARUN DIWEDI</text>
+    <text x="72" y="242" class="sans name" fill="url(#name)" textLength="640" lengthAdjust="spacingAndGlyphs">TARUN DIWEDI</text>
+  </g>
+  <g class="rise d3"><text x="72" y="292" class="sans sub">UI/UX Designer<tspan fill="#FF4FD8"> × </tspan>Game Developer</text></g>
+  <g class="rise d4"><text x="72" y="332" class="sans tag">I design in Figma and ship playful, lightning-fast web games.</text></g>
+  <g class="rise d5"><g transform="translate(72.0 358)"><rect width="82.6" height="32" rx="16" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".14"/><text x="14" y="21" class="mono chip" textLength="54.6" lengthAdjust="spacingAndGlyphs">✦ Figma</text></g><g transform="translate(164.6 358)"><rect width="113.8" height="32" rx="16" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".14"/><text x="14" y="21" class="mono chip" textLength="85.8" lengthAdjust="spacingAndGlyphs">HTML5 games</text></g><g transform="translate(288.4 358)"><rect width="113.8" height="32" rx="16" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".14"/><text x="14" y="21" class="mono chip" textLength="85.8" lengthAdjust="spacingAndGlyphs">Unity → Web</text></g><g transform="translate(412.2 358)"><rect width="168.4" height="32" rx="16" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".14"/><text x="14" y="21" class="mono chip" textLength="140.4" lengthAdjust="spacingAndGlyphs">Remote · Worldwide</text></g></g>
+
+  <!-- right: a Figma-style frame with a tiny game inside -->
+  <g class="rise d6">
+    <text x="772" y="74" class="mono lbl">◇ Level_01</text>
+    <text x="1128" y="74" text-anchor="end" class="mono lbl">1920 × 1080</text>
+    <rect x="772" y="84" width="356" height="256" rx="18" fill="url(#sky)"/>
+    <g clip-path="url(#board)">
+      <circle class="tw" style="animation-delay:0s" cx="800" cy="110" r="1.4" fill="#fff"/><circle class="tw" style="animation-delay:1.2s" cx="842" cy="150" r="1.1" fill="#fff"/><circle class="tw" style="animation-delay:0.6s" cx="905" cy="104" r="1.6" fill="#fff"/><circle class="tw" style="animation-delay:2.1s" cx="968" cy="140" r="1.2" fill="#fff"/><circle class="tw" style="animation-delay:1.6s" cx="1010" cy="118" r="1.0" fill="#fff"/><circle class="tw" style="animation-delay:0.3s" cx="1110" cy="160" r="1.4" fill="#fff"/><circle class="tw" style="animation-delay:2.6s" cx="880" cy="196" r="1.0" fill="#fff"/><circle class="tw" style="animation-delay:1.0s" cx="1000" cy="188" r="1.3" fill="#fff"/>
+      <path d="M772 292C840 268 905 286 960 280S1080 258 1128 272L1128 340L772 340Z" fill="#241C50"/>
+      <path d="M772 312Q860 298 950 306T1128 300L1128 340L772 340Z" fill="#30266C"/>
+      <path d="M772 312Q860 298 950 306T1128 300" fill="none" stroke="#FF4FD8" stroke-opacity=".55" stroke-width="2"/>
+      <rect x="812" y="236" width="72" height="12" rx="6" fill="#3B2F80"/><rect x="812" y="236" width="72" height="4" rx="2" fill="#5B4BB0"/>
+      <rect x="1036" y="226" width="66" height="12" rx="6" fill="#3B2F80"/><rect x="1036" y="226" width="66" height="4" rx="2" fill="#5B4BB0"/>
+      <ellipse class="coin" cx="848" cy="214" rx="8" ry="8" fill="#FFB547" stroke="#FFE1A3" stroke-width="2"/>
+      <ellipse class="coin" style="animation-delay:-.5s" cx="1069" cy="204" rx="8" ry="8" fill="#FFB547" stroke="#FFE1A3" stroke-width="2"/>
+
+      <g transform="translate(950 306)">
+        <ellipse class="shadow" cx="0" cy="0" rx="22" ry="5" fill="#000" fill-opacity=".4"/>
+        <g class="hopY">
+          <g class="squash">
+            <rect x="-14" y="-9" width="9" height="8" rx="4" fill="#5B3FD0"/><rect x="5" y="-9" width="9" height="8" rx="4" fill="#5B3FD0"/>
+            <polygon points="27.00,-31.00 13.50,-7.62 -13.50,-7.62 -27.00,-31.00 -13.50,-54.38 13.50,-54.38" fill="url(#hexfill)" stroke="#fff" stroke-opacity=".4" stroke-width="1.5"/>
+            <g class="blink"><ellipse cx="-9" cy="-35" rx="5.5" ry="6.5" fill="#fff"/><circle cx="-7.4" cy="-34" r="3" fill="#0B0A14"/></g>
+            <g class="blink"><ellipse cx="9" cy="-35" rx="5.5" ry="6.5" fill="#fff"/><circle cx="10.6" cy="-34" r="3" fill="#0B0A14"/></g>
+            <ellipse cx="-16" cy="-24" rx="4" ry="2.4" fill="#FFC2F0" opacity=".8"/><ellipse cx="16" cy="-24" rx="4" ry="2.4" fill="#FFC2F0" opacity=".8"/>
+            <path d="M-4 -24Q0 -19.5 4 -24" fill="none" stroke="#0B0A14" stroke-width="1.8" stroke-linecap="round"/>
+          </g>
+          <rect x="-34" y="-62" width="68" height="62" fill="none" stroke="#0D99FF" stroke-width="1.5"/>
+          <rect x="-37.5" y="-65.5" width="7" height="7" fill="#fff" stroke="#0D99FF" stroke-width="1.5"/>
+          <rect x="30.5" y="-65.5" width="7" height="7" fill="#fff" stroke="#0D99FF" stroke-width="1.5"/>
+          <rect x="-37.5" y="-3.5" width="7" height="7" fill="#fff" stroke="#0D99FF" stroke-width="1.5"/>
+          <rect x="30.5" y="-3.5" width="7" height="7" fill="#fff" stroke="#0D99FF" stroke-width="1.5"/>
+          <rect x="-26" y="10" width="52" height="17" rx="4" fill="#0D99FF"/>
+          <text x="0" y="22.3" text-anchor="middle" class="mono dim">64 × 64</text>
+        </g>
+      </g>
+
+      <g transform="translate(1040 100)">
+        <g class="press"><rect width="76" height="30" rx="15" fill="#C6FF3D"/><text x="38" y="19.5" text-anchor="middle" class="mono btn">▶ PLAY</text></g>
+        <circle class="ripple" cx="34" cy="16" r="12" fill="none" stroke="#C6FF3D" stroke-width="2"/>
+      </g>
+
+      <g transform="translate(1006 262)"><g class="curT">
+        <path d="M0 0L0 17L4.6 12.8L7.6 19.6L10.6 18.3L7.7 11.6L13.6 11.6Z" fill="#FF4FD8" stroke="#fff" stroke-width="1.3" stroke-linejoin="round"/>
+        <rect x="12" y="18" width="50" height="20" rx="6" fill="#FF4FD8"/>
+        <text x="37" y="32" text-anchor="middle" class="sans cur" fill="#fff">tarun</text>
+      </g></g>
+      <g transform="translate(860 150)"><g class="curY">
+        <path d="M0 0L0 17L4.6 12.8L7.6 19.6L10.6 18.3L7.7 11.6L13.6 11.6Z" fill="#3DE0FF" stroke="#fff" stroke-width="1.3" stroke-linejoin="round"/>
+        <rect x="12" y="18" width="38" height="20" rx="6" fill="#3DE0FF"/>
+        <text x="31" y="32" text-anchor="middle" class="sans cur" fill="#0B0A14">you</text>
+      </g></g>
+    </g>
+    <rect x="772.5" y="84.5" width="355" height="255" rx="17.5" fill="none" stroke="#fff" stroke-opacity=".14"/>
+
+    <g transform="translate(866 356)">
+      <rect width="168" height="40" rx="20" fill="#161330" stroke="#fff" stroke-opacity=".12"/>
+      <rect class="tool" x="8" y="6" width="32" height="28" rx="9" fill="#0D99FF"/>
+      <g transform="translate(18 11) scale(.85)"><path d="M0 0L0 17L4.6 12.8L7.6 19.6L10.6 18.3L7.7 11.6L13.6 11.6Z" fill="#fff"/></g>
+      <path d="M60 13v14M68 13v14M57 16h14M57 24h14" stroke="#fff" stroke-opacity=".85" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M104 12l6 6-6 10-6-10Z" fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="1.6" stroke-linejoin="round"/><circle cx="104" cy="19" r="1.6" fill="#fff"/>
+      <text x="144" y="26" text-anchor="middle" class="sans" font-size="16" font-weight="800" fill="#fff" fill-opacity=".85">T</text>
+    </g>
+  </g>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="438.5" rx="27.25" fill="none" stroke="#fff" stroke-opacity=".09"/><rect class="beam" style="animation-duration:7s;animation-delay:0.0s" x="1" y="1" width="1198" height="438" rx="27.25" fill="none" stroke="url(#beam)" stroke-width="2" pathLength="1000" stroke-dasharray="150 850" stroke-linecap="round"/>
+
+</svg>
